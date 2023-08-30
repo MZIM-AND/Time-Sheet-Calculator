@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>DND Time Sheet</title>
+</head>
+<!--Content commence from here-->
+<body>
+
+
+<!--container content start from this section-->
+
+<div class="container">
+  <header class="person">
+    <div class="person-avatar"></div>
+    <h1 class="person-name">Agent Sheet</h1>
+  </header>
+
+  <!--Section content start here-->
+
+  <section class="tableHead">
+   <input tye="text" class="orange" value="Days" disabled/>
+   <input type="text" class="blue" value="Start Work" disabled/>
+   <input type="text" class="green" value="Start Break" disabled/>
+   <input type="text" class="green" value="End Break" disabled/>
+   <input type="text" class="blue" value="End Work" disabled>
+   <input type="text" class="purple" value="Hours/Days" disabled/>
+</section>
+
+<section class="tableBody">
+  <!--<div class="tr">
+
+    <form>
+      <th>
+        <input type="text" class="orange" placeholder="Enter Day"/>
+      </th>
+      <td>
+        <input type="time" class="green" id="start-work"/>
+      </td>
+
+      <td>
+        <input type="time" class="blue" id="start-break"/>
+      </td>
+
+      <td>
+        <input type="time" class="blue" id="end-break"/>
+      </td>
+
+      <td>
+      <input type="time" class="green" id="end-work">
+    </td>
+
+      <td>
+        <input class="WorkedHours purple" value="00:00"/>
+      </td>
+      
+  
+        <button class="btn" type="submit">Add</button>
+      </td> 
+
+
+    </form>
+
+  </div>-->
+  <div class="tr"></div>
+  <div class="tr"></div>
+  <div class="tr"></div>
+  <div class="tr"></div>
+  <div class="tr"></div> 
+  <div class="tr"></div>
+  <div class="tr"></div>
+</section>
+
+<section class="tablefooter">
+  <input class="red purple" value="Total" disabled >
+
+  <input id="totalWorkedHours" class="red" value="Woked Hours" disabled >
+</section>
+</div>
+
+<script src="script.js"></script>
+</body>
+  </html>
